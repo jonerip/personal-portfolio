@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background-image: url(images/darkgradient.jpg);
+    max-height: 100%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media(min-width: 500px) {
+    .container {
+        position: relative;
+        padding-top: 8%;
+        padding-left: 5%;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        width: 90%;
+        height: 100%;
+        margin: 0;
+    }
+}
+    
+
