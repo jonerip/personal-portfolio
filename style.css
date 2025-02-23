@@ -2,31 +2,111 @@
 
 body {
     background-image: url(images/darkgradient.jpg);
-    max-height: 100%;
-    color: white;
+    background-attachment: fixed;
     font-family: "Montserrat", sans-serif;
+    color: white;
 }
 
-
-
-@media(min-width: 500px) {
+@media(min-width: 800px) {
     .container {
         position: relative;
         padding-top: 8%;
         padding-left: 7%;
         font-family: "Montserrat", sans-serif;
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: white;
-        width: 90%;
-        height: 100%;
-        margin: 0;
+        width: 93%;
+        margin: auto;
         text-align: justify;
+        padding-bottom: 2%;
+        
     }
 
     .socials {
+        padding: 0px 8px;
+        padding-left: 20%;
+    }
+    
+}
+
+@media(min-width: 300px) {
+    .box1 {
+        position: sticky;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box2 {
+        position: relative;
+        padding-top: 2%;
+        margin: auto;
+        width: 90%;
+        height: 40%;
+    }
+
+    .accordion {
+        background: rgb(33,45,82);
+        background: linear-gradient(90deg, rgba(33,45,82,1) 0%, rgba(78,150,133,1) 80%, rgba(89,163,128,1) 100%, rgba(88,160,127,1) 100%, rgba(6,115,245,1) 100%);
+        width: 100%;
+        text-align: left;
+        border: solid;
+        border-color: darkcyan;
+        outline: none;
+        padding: 28px;
+        color: white;
+        font-size: 1.5rem;
+        transition: 0.4s;
+    }
+    
+    .panel {
+        padding:  28px;
+        background-color: white;
+        border: solid;
+        border-color: darkcyan;
+        display: none;
+        height: 20%;
+        overflow: hidden;
+        color: black;
+        text-align: justify;
+        font-size: 1rem;
+      }
+
+    .active, .accordion:hover {
+        background-color: white;
+    }
+
+    .details {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 90%;
+        height: 20%;
+        width: 8%;
+        padding: 12px;
+        color: black;
+        border: solid;
+        border-radius: 10px;
+        font: 1.5rem;
+    }
+
+    .details:hover {
+        color: white;
+    }
+
+    .glink {
+        width: 8%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: white;
         padding: 10px;
-        padding-left: 15%;
+        cursor: pointer;
+        font-size: 1rem;
     }
 }
-    
 
+img {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+    margin-left: 26%;
+}
