@@ -16,3 +16,7 @@ for (i = 0; i < acc.length; i++) {
 function calcRepo() {
     window.open('https://github.com/jonerip/calculator', '_blank');
 }
+
+function todoRepo() {
+    window.open('https://github.com/jonerip/todo-list', '_blank');
+}
