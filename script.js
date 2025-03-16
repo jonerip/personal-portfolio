@@ -20,3 +20,7 @@ function calcRepo() {
 function todoRepo() {
     window.open('https://github.com/jonerip/todo-list', '_blank');
 }
+
+function dictRepo() {
+    window.open('https://github.com/jonerip/online-dictionary', '_blank')
+}
