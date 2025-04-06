@@ -106,8 +106,10 @@ body {
 }
 
 img {
-    max-width: 40%;
+    max-width: 60%;
     height: auto;
     margin: auto;
-    margin-left: 26%;
+    margin-left: 20%;
+    vertical-align: middle;
+    border: solid black;
 }
